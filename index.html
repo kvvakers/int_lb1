@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Двухколоночная верстка</title>
+</head>
+<body height="100%">
+
+  <table width="100%" height="100%">
+      <tr>
+          <td colspan="2">
+              <h1>Header for my first lab work!</h1>
+              <a href="/">Main page</a>
+              <a href="#">Second page</a>
+              <a href="#">Third page</a>
+          </td>
+      </tr>
+      <tr>
+      <td width="70%" valign="top">
+        <h2>0 option</h2>
+        <p>Основна <b>тригометрична тотожність:</b> <br>
+            <i>cos</i><sup>2</sup><i><b>a</b></i> + <i>sin</i><sup>2</sup><i><b>a</b></i> = 1 <br>
+            Приклад суворої нерівності: &alpha;&lt;&beta;<br>
+            Нестрога нерівність &alpha;&le;&beta; означає, що<br>
+            або &alpha;&lt;&beta; або &alpha;=&beta;
+        </p>
+
+          <table border="1" cellpadding="10" cellspacing="0">
+              <thead>
+              <tr>
+                  <th>Студент</th>
+                  <th>ФПР</th>
+                  <th>СПЗ</th>
+                  <th>ІНТ</th>
+              </tr>
+              </thead>
+              <tbody>
+              <tr>
+                  <td>Остріков Сергій</td>
+                  <td>85</td>
+                  <td>90</td>
+                  <td>88</td>
+              </tr>
+              <tr>
+                  <td>Світличний Артем</td>
+                  <td>78</td>
+                  <td>84</td>
+                  <td>80</td>
+              </tr>
+              <tr>
+                  <td>Гаргай Дмитро</td>
+                  <td>92</td>
+                  <td>89</td>
+                  <td>94</td>
+              </tr>
+              <tr>
+                  <td>Токмакова Аліна</td>
+                  <td>92</td>
+                  <td>89</td>
+                  <td>94</td>
+              </tr>
+              </tbody>
+          </table>
+          <br>
+          <br>
+          <form action="" method="post">
+              <label for="username">Ім'я користувача:</label>
+              <input type="text" id="username" name="username" required><br><br>
+              <label for="email">Електронна пошта:</label>
+              <input type="email" id="email" name="email" required><br><br>
+              <label for="password">Пароль:</label>
+              <input type="password" id="password" name="password" required><br><br>
+              <label for="confirm_password">Підтвердження пароля:</label>
+              <input type="password" id="confirm_password" name="confirm_password" required><br><br>
+              <input type="submit" value="Зареєструватися">
+          </form>
+
+      </td>
+      <td width="30%" valign="top">
+        <h2>Quiz!</h2>
+          <ul>
+              <li>Питання 1: Яка столиця України?
+                  <ul>
+                      <li>А. Львів</li>
+                      <li>Б. Київ</li>
+                      <li>В. Одеса</li>
+                      <li>Г. Харків</li>
+                  </ul>
+              </li>
+              <li>Питання 2: Який океан найбільший на Землі?
+                  <ul>
+                      <li>А. Атлантичний</li>
+                      <li>Б. Індійський</li>
+                      <li>В. Тихий</li>
+                      <li>Г. Північний Льодовитий</li>
+                  </ul>
+              </li>
+
+              <li>Питання 3: Яка планета найближча до Сонця?
+                  <ul>
+                      <li>А. Земля</li>
+                      <li>Б. Венера</li>
+                      <li>В. Меркурій</li>
+                      <li>Г. Марс</li>
+                  </ul>
+              </li>
+          </ul>
+      </td>
+    </tr>
+      <tr>
+          <td><a href="https://nure.ua/"><img src="./img.png" alt=""></a></td>
+      </tr>
+  </table>
+
+</body>
+</html>
